@@ -1,0 +1,31 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "REPLACE_ID",
+        "name": "REPLACE_NAME",
+        "group": "REPLACE_GROUP",
+        "height": 3,
+        "source": "digitized",
+        "owner": "REPLACE_OWNER",
+        "status": "draft",
+        "phase": "REPLACE_PHASE",
+        "module": "REPLACE_MODULE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.69490, 10.77680],
+            [106.69570, 10.77680],
+            [106.69570, 10.77735],
+            [106.69490, 10.77735],
+            [106.69490, 10.77680]
+          ]
+        ]
+      }
+    }
+  ]
+}

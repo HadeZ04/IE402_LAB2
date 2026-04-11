@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GLB_FOOTPRINT_01",
+        "name": "Extracted footprint (local coords)",
+        "group": "building",
+        "height": 10,
+        "source": "trimesh_from_glb",
+        "owner": "tool",
+        "status": "draft",
+        "note": "Coordinates are local XY from GLB, not lon/lat. Georeference in QGIS."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.5563735961914,
+              -87.16120910644531
+            ],
+            [
+              -73.5563735961914,
+              87.16120147705078
+            ],
+            [
+              72.75182342529297,
+              87.16120147705078
+            ],
+            [
+              73.11894989013672,
+              -86.79607391357422
+            ],
+            [
+              -73.5563735961914,
+              -87.16120910644531
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI_001",
+        "name": "REPLACE_NAME",
+        "group": "poi",
+        "source": "digitized",
+        "owner": "REPLACE_OWNER",
+        "status": "draft",
+        "phase": "phase2_modules",
+        "module": "points"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69530, 10.77690]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI_001",
+        "name": "Main Entrance",
+        "group": "poi",
+        "source": "digitized",
+        "owner": "member_05",
+        "status": "draft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69530, 10.77690]
+      }
+    }
+  ]
+}

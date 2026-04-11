@@ -1,0 +1,54 @@
+﻿{
+  "phaseOrder": ["phase1_base", "phase2_modules"],
+  "phase1_base": {
+    "site": [
+      "site_boundary.geojson",
+      "perimeter_wall.geojson",
+      "front_plaza.geojson",
+      "rear_court.geojson",
+      "gate_zones.geojson"
+    ],
+    "building": [
+      "floor0_core.geojson",
+      "floor0_wing_east.geojson",
+      "floor0_wing_west.geojson",
+      "floor1_core.geojson",
+      "floor1_wing_east.geojson",
+      "floor1_wing_west.geojson",
+      "floor2_core.geojson",
+      "floor2_wing_east.geojson",
+      "floor2_wing_west.geojson",
+      "stair_blocks.geojson"
+    ],
+    "roof": [
+      "roof_main_center.geojson",
+      "roof_main_east.geojson",
+      "roof_main_west.geojson",
+      "roof_secondary_front.geojson",
+      "roof_secondary_rear.geojson"
+    ]
+  },
+  "phase2_modules": {
+    "landscape": [
+      "driveways_main.geojson",
+      "driveways_secondary.geojson",
+      "parking_zones.geojson",
+      "green_front.geojson",
+      "green_side.geojson",
+      "water_features.geojson"
+    ],
+    "facade": [
+      "facade_north.geojson",
+      "facade_south.geojson",
+      "facade_east.geojson",
+      "facade_west.geojson",
+      "colonnade_front.geojson"
+    ],
+    "points": [
+      "entrance_main_points.geojson",
+      "entrance_side_points.geojson",
+      "poi_monument_points.geojson",
+      "poi_service_points.geojson"
+    ]
+  }
+}

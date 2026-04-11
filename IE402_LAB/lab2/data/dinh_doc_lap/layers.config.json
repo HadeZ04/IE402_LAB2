@@ -1,0 +1,362 @@
+﻿{
+    "project":  "dinh_doc_lap",
+    "center":  {
+                   "longitude":  106.6953,
+                   "latitude":  10.777,
+                   "cameraZ":  420,
+                   "heading":  20,
+                   "tilt":  62
+               },
+    "phaseOrder":  [
+                       "phase1_base",
+                       "phase2_modules"
+                   ],
+    "layers":  [
+                   {
+                       "id":  "site_boundary",
+                       "title":  "Site Boundary",
+                       "phase":  "phase1_base",
+                       "module":  "site",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/site/site_boundary.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#d9d2c3",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "perimeter_wall",
+                       "title":  "Perimeter Wall",
+                       "phase":  "phase1_base",
+                       "module":  "site",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/site/perimeter_wall.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#cbbca6",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "front_plaza",
+                       "title":  "Front Plaza",
+                       "phase":  "phase1_base",
+                       "module":  "site",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/site/front_plaza.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#dcdcdc",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "rear_court",
+                       "title":  "Rear Court",
+                       "phase":  "phase1_base",
+                       "module":  "site",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/site/rear_court.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#d7d7d7",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "gate_zones",
+                       "title":  "Gate Zones",
+                       "phase":  "phase1_base",
+                       "module":  "site",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/site/gate_zones.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#e6d6b8",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "floor0_core",
+                       "title":  "Floor 0 Core",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor0_core.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#d7d7d7",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "floor0_wing_east",
+                       "title":  "Floor 0 Wing East",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor0_wing_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#d3d3d3",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "floor0_wing_west",
+                       "title":  "Floor 0 Wing West",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor0_wing_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#d3d3d3",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "floor1_core",
+                       "title":  "Floor 1 Core",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor1_core.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#c8c8c8",
+                       "baseOffset":  5
+                   },
+                   {
+                       "id":  "floor1_wing_east",
+                       "title":  "Floor 1 Wing East",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor1_wing_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#c4c4c4",
+                       "baseOffset":  5
+                   },
+                   {
+                       "id":  "floor1_wing_west",
+                       "title":  "Floor 1 Wing West",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor1_wing_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#c4c4c4",
+                       "baseOffset":  5
+                   },
+                   {
+                       "id":  "floor2_core",
+                       "title":  "Floor 2 Core",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor2_core.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#b8b8b8",
+                       "baseOffset":  10
+                   },
+                   {
+                       "id":  "floor2_wing_east",
+                       "title":  "Floor 2 Wing East",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor2_wing_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#b4b4b4",
+                       "baseOffset":  10
+                   },
+                   {
+                       "id":  "floor2_wing_west",
+                       "title":  "Floor 2 Wing West",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/floor2_wing_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#b4b4b4",
+                       "baseOffset":  10
+                   },
+                   {
+                       "id":  "stair_blocks",
+                       "title":  "Stair Blocks",
+                       "phase":  "phase1_base",
+                       "module":  "building",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/building/stair_blocks.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#a9a9a9",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "roof_main_center",
+                       "title":  "Roof Main Center",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/roof/roof_main_center.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#8b4f2c",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_main_east",
+                       "title":  "Roof Main East",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/roof/roof_main_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#8b4f2c",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_main_west",
+                       "title":  "Roof Main West",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/roof/roof_main_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#8b4f2c",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_secondary_front",
+                       "title":  "Roof Secondary Front",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/roof/roof_secondary_front.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#9a5b35",
+                       "baseOffset":  12
+                   },
+                   {
+                       "id":  "roof_secondary_rear",
+                       "title":  "Roof Secondary Rear",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase1_base/roof/roof_secondary_rear.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#9a5b35",
+                       "baseOffset":  12
+                   },
+                   {
+                       "id":  "driveways_main",
+                       "title":  "Driveways Main",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/driveways_main.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#c2b280",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "driveways_secondary",
+                       "title":  "Driveways Secondary",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/driveways_secondary.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#b9aa75",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "parking_zones",
+                       "title":  "Parking Zones",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/parking_zones.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#a8a8a8",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "green_front",
+                       "title":  "Green Front",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/green_front.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#7faa68",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "green_side",
+                       "title":  "Green Side",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/green_side.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#739c60",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "water_features",
+                       "title":  "Water Features",
+                       "phase":  "phase2_modules",
+                       "module":  "landscape",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/landscape/water_features.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#6ea8d9",
+                       "baseOffset":  0
+                   },
+                   {
+                       "id":  "facade_north",
+                       "title":  "Facade North",
+                       "phase":  "phase2_modules",
+                       "module":  "facade",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/facade/facade_north.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#efefef",
+                       "baseOffset":  8
+                   },
+                   {
+                       "id":  "facade_south",
+                       "title":  "Facade South",
+                       "phase":  "phase2_modules",
+                       "module":  "facade",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/facade/facade_south.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#ededed",
+                       "baseOffset":  8
+                   },
+                   {
+                       "id":  "facade_east",
+                       "title":  "Facade East",
+                       "phase":  "phase2_modules",
+                       "module":  "facade",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/facade/facade_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#ececec",
+                       "baseOffset":  8
+                   },
+                   {
+                       "id":  "facade_west",
+                       "title":  "Facade West",
+                       "phase":  "phase2_modules",
+                       "module":  "facade",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/facade/facade_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#ececec",
+                       "baseOffset":  8
+                   },
+                   {
+                       "id":  "colonnade_front",
+                       "title":  "Colonnade Front",
+                       "phase":  "phase2_modules",
+                       "module":  "facade",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/facade/colonnade_front.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "#f5f1e6",
+                       "baseOffset":  6
+                   },
+                   {
+                       "id":  "entrance_main_points",
+                       "title":  "Entrance Main Points",
+                       "phase":  "phase2_modules",
+                       "module":  "points",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/points/entrance_main_points.geojson",
+                       "geometryType":  "point",
+                       "color":  "#2f5597"
+                   },
+                   {
+                       "id":  "entrance_side_points",
+                       "title":  "Entrance Side Points",
+                       "phase":  "phase2_modules",
+                       "module":  "points",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/points/entrance_side_points.geojson",
+                       "geometryType":  "point",
+                       "color":  "#4c78c4"
+                   },
+                   {
+                       "id":  "poi_monument_points",
+                       "title":  "POI Monument Points",
+                       "phase":  "phase2_modules",
+                       "module":  "points",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/points/poi_monument_points.geojson",
+                       "geometryType":  "point",
+                       "color":  "#1f77b4"
+                   },
+                   {
+                       "id":  "poi_service_points",
+                       "title":  "POI Service Points",
+                       "phase":  "phase2_modules",
+                       "module":  "points",
+                       "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/points/poi_service_points.geojson",
+                       "geometryType":  "point",
+                       "color":  "#5b8ff9"
+                   }
+               ]
+}

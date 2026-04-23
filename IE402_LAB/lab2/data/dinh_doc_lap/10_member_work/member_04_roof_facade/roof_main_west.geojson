@@ -4,26 +4,56 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
+        "id": "RF MAIN WEST",
+        "name": "Roof Main West",
+        "group": "roof",
         "height": 3,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
+        "owner": "member_04",
         "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "phase": "phase1_base",
+        "module": "roof"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
-          ]
+            [106.69574348612653, 10.776947353092273],
+            [106.69563566133235, 10.776833525304305],
+            [106.69545219823169, 10.777000578114398],
+            [106.69555841370455, 10.777114932796135]
+          ],
+          [
+            [106.69572297848384, 10.776948934575927],
+            [106.69563312450238, 10.776852760668326],
+            [106.69546629108949, 10.777001632625586],
+            [106.69555802263982, 10.777100704897162]
+        ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "RF MAIN WEST 3",
+        "name": "Roof Main West 3",
+        "group": "roof",
+        "height": 6,
+        "source": "digitized",
+        "owner": "member_04",
+        "status": "draft",
+        "phase": "phase1_base",
+        "module": "roof"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.69573934182262, 10.776923684292994],
+            [106.6956650446411, 10.776841738825823],
+            [106.69561408265962, 10.776887586132384],
+            [106.69568891630544, 10.776967423652792]
+        ]
         ]
       }
     }

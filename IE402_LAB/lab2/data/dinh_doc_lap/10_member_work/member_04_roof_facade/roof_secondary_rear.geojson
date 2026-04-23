@@ -4,25 +4,24 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "RF SECONDARY REAR 1",
+        "name": "Roof Secondary Rear 1",
+        "group": "roof",
+        "height": 1,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
+        "owner": "member_04",
         "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "phase": "phase1_base",
+        "module": "roof"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.69511579108715, 10.776991565730746],
+            [106.69533144067552, 10.776801852762294],
+            [106.69515548778875, 10.77661213970695],
+            [106.69494144748077, 10.77680448766529]
           ]
         ]
       }

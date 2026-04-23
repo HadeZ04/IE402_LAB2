@@ -84,11 +84,22 @@
   }
 
   function sortLayersByPhase(layers, phaseOrder) {
-    const phaseIndex = new Map((phaseOrder || []).map((p, i) => [p, i]));
+    const orderArray = Array.isArray(phaseOrder)
+      ? phaseOrder
+      : phaseOrder && typeof phaseOrder === "object"
+      ? Object.keys(phaseOrder)
+      : [];
+
+    if (!Array.isArray(phaseOrder) && phaseOrder !== undefined) {
+      console.warn("phaseOrder is not an array. Falling back to object keys or empty order.", phaseOrder);
+    }
+
     return [...layers].sort((a, b) => {
-      const ai = phaseIndex.has(a.phase) ? phaseIndex.get(a.phase) : 999;
-      const bi = phaseIndex.has(b.phase) ? phaseIndex.get(b.phase) : 999;
-      if (ai !== bi) return ai - bi;
+      const ai = orderArray.indexOf(a.phase);
+      const bi = orderArray.indexOf(b.phase);
+      const aIndex = ai >= 0 ? ai : 999;
+      const bIndex = bi >= 0 ? bi : 999;
+      if (aIndex !== bIndex) return aIndex - bIndex;
       return a.id.localeCompare(b.id);
     });
   }

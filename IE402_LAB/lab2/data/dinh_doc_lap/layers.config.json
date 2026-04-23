@@ -12,7 +12,7 @@
                        "phase2_modules"
                    ],
     "layers":  [
-                   {
+                    {
                        "id":  "site_boundary",
                        "title":  "Site Boundary",
                        "phase":  "phase1_base",
@@ -357,6 +357,67 @@
                        "url":  "./data/dinh_doc_lap/20_integration/geojson/phase2_modules/points/poi_service_points.geojson",
                        "geometryType":  "point",
                        "color":  "#5b8ff9"
+                   },
+
+                   {
+                       "id":  "roof_main_center",
+                       "title":  "Roof Main Center",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_main_center.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_main",
+                       "title":  "Roof Main",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_main.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_secondary_front",
+                       "title":  "Roof Secondary Front",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_secondary_front.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_secondary_rear",
+                       "title":  "Roof Secondary Rear",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_secondary_rear.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_main_east",
+                       "title":  "Roof Main East",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_main_east.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
+                   },
+                   {
+                       "id":  "roof_main_west",
+                       "title":  "Roof Main West",
+                       "phase":  "phase1_base",
+                       "module":  "roof",
+                       "url":  "./data/dinh_doc_lap/10_member_work/member_04_roof_facade/roof_main_west.geojson",
+                       "geometryType":  "polygon",
+                       "color":  "white",
+                       "baseOffset":  14
                    }
                ]
 }

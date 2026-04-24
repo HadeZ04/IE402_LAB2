@@ -4,25 +4,24 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "RF SECONDARY FRONT",
+        "name": "Roof Secondary Front",
+        "group": "roof",
+        "height": 1,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
+        "owner": "member_04",
         "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "phase": "phase1_base",
+        "module": "roof"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.69529337602584, 10.777110245745673],
+            [106.69543419198884, 10.77698298002643],
+            [106.69530155136114, 10.776828022590022],
+            [106.6951519891062, 10.776958931155102]
           ]
         ]
       }

@@ -4,25 +4,49 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "RF MAIN CENTER 1",
+        "name": "Roof Main Center 1",
+        "group": "roof",
+        "height": 1,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
+        "owner": "member_04",
         "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "phase": "phase1_base",
+        "module": "roof"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.69542565019428, 10.777281520285264, 6],
+            [106.69559462936218, 10.77712922309829, 6],
+            [106.6954438892238, 10.7769695480518, 6],
+            [106.6952754464895, 10.77711921042939, 6]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "RF MAIN CENTER 2",
+        "name": "Roof Main Center 2",
+        "group": "roof",
+        "height": 6,
+        "source": "digitized",
+        "owner": "member_04",
+        "status": "draft",
+        "phase": "phase1_base",
+        "module": "roof"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.6954238314437, 10.777250847907515],
+            [106.69531064223149, 10.777128588572097],
+            [106.69545065353385, 10.777000532382194],
+            [106.69555847832802, 10.777117521979267]
           ]
         ]
       }

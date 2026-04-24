@@ -4,25 +4,55 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
+        "id": "RF MAIN EAST",
+        "name": "Roof Main East",
+        "group": "roof",
         "height": 3,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
+        "owner": "member_04",
         "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "phase": "phase1_base",
+        "module": "roof"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.69512561391805, 10.777297779550748],
+            [106.69523612092122, 10.777421619767042],
+            [106.69542280268499, 10.777251405334887],
+            [106.69530907703916, 10.777128619017653]
+          ],
+          [
+            [106.69514125329941, 10.777297730801306],
+            [106.69523700816326, 10.77740786954793],
+            [106.69540491448431, 10.77725056610766],
+            [106.69530620916399, 10.777147541540522]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "RF MAIN EAST 2",
+        "name": "Roof Main East 2",
+        "group": "roof",
+        "height": 6,
+        "source": "digitized",
+        "owner": "member_04",
+        "status": "draft",
+        "phase": "phase1_base",
+        "module": "roof"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.69513388864763, 10.77732770548561],
+            [106.69520308962792, 10.777400165182684],
+            [106.69525083295656, 10.777358797283028],
+            [106.69518136373901, 10.777286074090153]
           ]
         ]
       }

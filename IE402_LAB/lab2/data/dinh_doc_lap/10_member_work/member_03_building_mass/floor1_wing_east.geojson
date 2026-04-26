@@ -1,28 +1,51 @@
-﻿{
+{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "MB_03_floor1_wing_east",
+        "name": "Lầu 1 - Cánh Đông",
+        "group": "building",
+        "height": 4.0,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_03",
+        "status": "review",
+        "phase": "phase1_base",
+        "module": "building"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [
+              106.69547122629194,
+              10.777263707775603
+            ],
+            [
+              106.69526204892207,
+              10.777450523123463
+            ],
+            [
+              106.69508469018439,
+              10.777261309775142
+            ],
+            [
+              106.6951751865783,
+              10.777180428062962
+            ],
+            [
+              106.69520374153069,
+              10.777210599847706
+            ],
+            [
+              106.6953212323686,
+              10.777104315861237
+            ],
+            [
+              106.69547122629194,
+              10.777263707775603
+            ]
           ]
         ]
       }

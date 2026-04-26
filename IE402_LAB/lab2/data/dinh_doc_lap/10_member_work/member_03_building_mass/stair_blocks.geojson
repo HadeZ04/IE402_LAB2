@@ -1,28 +1,28 @@
-﻿{
+{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "MB_03_stair_blocks",
+        "name": "Bậc tam cấp",
+        "group": "building",
+        "height": 1.5,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_03",
+        "status": "review",
+        "phase": "phase1_base",
+        "module": "building"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.6955448381479, 10.777195798303424],
+            [106.69555512993446, 10.777186377741387],
+            [106.69557189373973, 10.777204657357458],
+            [106.6955611649052, 10.777213879505524],
+            [106.6955448381479, 10.777195798303424]
           ]
         ]
       }

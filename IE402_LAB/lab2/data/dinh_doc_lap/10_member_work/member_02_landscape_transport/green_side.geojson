@@ -4,27 +4,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
+        "id": "LS_GRN_SIDE_01",
+        "name": "mang_xanh_ben_hong",
+        "group": "landscape",
         "height": 3,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_02",
+        "status": "review",
+        "phase": "phase2",
+        "module": "landscape"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
-          ]
-        ]
+        "coordinates": [[[106.69490, 10.77680], [106.69570, 10.77680], [106.69570, 10.77735], [106.69490, 10.77735], [106.69490, 10.77680]]]
       }
     }
   ]

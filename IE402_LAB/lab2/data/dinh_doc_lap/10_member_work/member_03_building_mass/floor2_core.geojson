@@ -1,28 +1,32 @@
-﻿{
+{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "MB_03_floor2_core",
+        "name": "Lầu 2 - Khối trung tâm",
+        "group": "building",
+        "height": 4.0,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_03",
+        "status": "review",
+        "phase": "phase1_base",
+        "module": "building"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [106.69518156094915, 10.776585373883748],
+            [106.69535780124727, 10.77677188095565],
+            [106.69532732068052, 10.776799052713855],
+            [106.6956270015894, 10.77712000807088],
+            [106.69547122629194, 10.777263707775603],
+            [106.69517095166253, 10.77694395091578],
+            [106.69514437493149, 10.776967936181563],
+            [106.69496656407676, 10.776778719941959],
+            [106.69518156094915, 10.776585373883748]
           ]
         ]
       }

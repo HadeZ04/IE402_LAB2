@@ -1,28 +1,51 @@
-﻿{
+{
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "MB_03_floor0_wing_west",
+        "name": "Tầng trệt - Cánh Tây",
+        "group": "building",
+        "height": 4.5,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_03",
+        "status": "review",
+        "phase": "phase1_base",
+        "module": "building"
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
+            [
+              106.6956270015894,
+              10.77712000807088
+            ],
+            [
+              106.69547621967439,
+              10.776958334351846
+            ],
+            [
+              106.69560205937245,
+              10.776846486854737
+            ],
+            [
+              106.69557426739925,
+              10.776816060848418
+            ],
+            [
+              106.69566244031085,
+              10.776738003827177
+            ],
+            [
+              106.69583895695007,
+              10.77692676155121
+            ],
+            [
+              106.6956270015894,
+              10.77712000807088
+            ]
           ]
         ]
       }

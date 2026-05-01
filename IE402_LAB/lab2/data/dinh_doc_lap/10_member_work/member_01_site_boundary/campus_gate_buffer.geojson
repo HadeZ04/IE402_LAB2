@@ -4,25 +4,49 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "ST_gate_buffer_1",
+        "name": "Main Gate Buffer",
+        "group": "gate_buffer",
+        "height": 1,
         "source": "digitized",
-        "owner": "member_x",
-        "status": "draft"
+        "owner": "member_01",
+        "status": "draft",
+        "phase": "phase_1",
+        "module": "site_boundary"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
-          ]
-        ]
+        "coordinates": [[
+          [106.69585, 10.77673],
+          [106.69587, 10.77675],
+          [106.69589, 10.77673],
+          [106.69587, 10.77671],
+          [106.69585, 10.77673]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ST_gate_buffer_2",
+        "name": "Side Gate Buffer",
+        "group": "gate_buffer",
+        "height": 1,
+        "source": "digitized",
+        "owner": "member_01",
+        "status": "draft",
+        "phase": "phase_1",
+        "module": "site_boundary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [106.69555, 10.77721],
+          [106.69557, 10.77723],
+          [106.69559, 10.77721],
+          [106.69557, 10.77719],
+          [106.69555, 10.77721]
+        ]]
       }
     }
   ]

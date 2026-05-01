@@ -4,27 +4,25 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "REPLACE_ID",
-        "name": "REPLACE_NAME",
-        "group": "REPLACE_GROUP",
-        "height": 3,
+        "id": "ST_rear_court_01",
+        "name": "Rear Court",
+        "group": "court",
+        "height": 0,
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
-        "phase": "REPLACE_PHASE",
-        "module": "REPLACE_MODULE"
+        "owner": "member_01",
+        "status": "done",
+        "phase": "phase_1",
+        "module": "site_boundary"
       },
       "geometry": {
         "type": "Polygon",
-        "coordinates": [
-          [
-            [106.69490, 10.77680],
-            [106.69570, 10.77680],
-            [106.69570, 10.77735],
-            [106.69490, 10.77735],
-            [106.69490, 10.77680]
-          ]
-        ]
+        "coordinates": [[
+          [106.69498764520836, 10.776760126589679],
+          [106.69493421212735, 10.77670218874691],
+          [106.6950945113685, 10.77656105805653],
+          [106.69514693627684, 10.77661453916808],
+          [106.69498764520836, 10.776760126589679]
+        ]]
       }
     }
   ]

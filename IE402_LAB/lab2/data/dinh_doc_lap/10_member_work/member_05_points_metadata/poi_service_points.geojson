@@ -4,18 +4,52 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "POI_001",
-        "name": "REPLACE_NAME",
+        "id": "POI_007",
+        "name": "Ticket Booth",
         "group": "poi",
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
+        "owner": "member_05",
+        "status": "review",
         "phase": "phase2_modules",
         "module": "points"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.69530, 10.77690]
+        "coordinates": [106.69545, 10.77700]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI_008",
+        "name": "Security Office",
+        "group": "poi",
+        "source": "digitized",
+        "owner": "member_05",
+        "status": "review",
+        "phase": "phase2_modules",
+        "module": "points"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69495, 10.77705]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI_009",
+        "name": "Public Restroom",
+        "group": "poi",
+        "source": "digitized",
+        "owner": "member_05",
+        "status": "review",
+        "phase": "phase2_modules",
+        "module": "points"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69560, 10.77730]
       }
     }
   ]

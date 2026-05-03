@@ -5,17 +5,34 @@
       "type": "Feature",
       "properties": {
         "id": "POI_001",
-        "name": "REPLACE_NAME",
+        "name": "Main Entrance",
         "group": "poi",
         "source": "digitized",
-        "owner": "REPLACE_OWNER",
-        "status": "draft",
+        "owner": "member_05",
+        "status": "review",
         "phase": "phase2_modules",
         "module": "points"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.69530, 10.77690]
+        "coordinates": [106.69520, 10.77730]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "POI_002",
+        "name": "Front Secondary Entrance",
+        "group": "poi",
+        "source": "digitized",
+        "owner": "member_05",
+        "status": "review",
+        "phase": "phase2_modules",
+        "module": "points"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.69540, 10.77710]
       }
     }
   ]
